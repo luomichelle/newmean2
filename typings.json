@@ -1,0 +1,11 @@
+{
+  "name": "my-app",
+  "version": false,
+  "dependencies": {},
+  "ambientDependencies": {
+    "es6-shim": "registry:dt/es6-shim#0.31.2+20160317120654"
+  },
+  "resolution": {
+    "main": "public/typings"
+  }
+}

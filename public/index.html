@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+  <head>
+    <title>angular2-mean-starter</title>
+    <link rel="icon" type="image/png" href="resources/images/favicon-128x128.png" sizes="128x128" />
+
+    <!-- Libraries -->
+    <script src="scripts/es6-shim/es6-shim.js"></script>
+    <script src="scripts/zonejs/zone.js"></script>
+    <script src="scripts/reflect-metadata/Reflect.js"></script>
+    <script src="scripts/systemjs/system.src.js"></script>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <base href="/">
+  </head>
+  <body>
+    <script src="systemjs.config.js"></script>
+    <script>System.import('app/main').then(null, (err) => { console.error(err); } );</script>
+
+    <angular2-mean-starter></angular2-mean-starter> <!-- <--- Our app loads here! -->
+
+  </body>
+</html>
